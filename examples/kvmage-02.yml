@@ -1,0 +1,18 @@
+---
+kvmage:
+  example:
+    image_name: test-image
+    virt_mode: install
+    os_var: rhel9.2
+    image_size: 20G
+    ks_file: /tmp/ks.cfg
+    install_media: http://example.com/iso
+    image_dest: /tmp/output.qcow2
+  example02:
+    image_name: test-image
+    virt_mode: install
+    os_var: rhel9.2
+    image_size: 20G
+    ks_file: /tmp/ks.cfg
+    install_media: http://example.com/iso
+    image_dest: /tmp/output.qcow2
